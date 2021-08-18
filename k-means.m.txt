@@ -1,0 +1,4 @@
+% data - input data.
+x = data';
+% For reproducibility
+E = evalclusters(x,'kmeans','silhouette','klist',1:6);
